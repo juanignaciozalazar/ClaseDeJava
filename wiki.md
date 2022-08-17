@@ -1,4 +1,4 @@
-# WikiJay
+# WikiJ
 Se presentarán aquí los conceptos que se considere requieran 
 una explicación o desarrollo.
 
