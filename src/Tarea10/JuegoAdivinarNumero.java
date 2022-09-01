@@ -14,10 +14,10 @@ public class JuegoAdivinarNumero {
 
     public static void partida(Scanner s) {
         int numeroUsuario;
-        int numeroRandom = (int) (Math.random() * 100);
+        int numeroRandom = (int) (Math.random() * 99) + 1;
 
         do {
-            System.out.println("Ingrese un número de 0 a 100");
+            System.out.println("Ingrese un número de 1 a 100");
             numeroUsuario = (int) s.nextDouble();
             s.nextLine();
             if (numeroUsuario < numeroRandom) {
